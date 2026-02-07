@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            background-color: rgb(58, 56, 56);
+            /* align-items: ; */
+            margin: 50px;
+            display: grid;
+            place-items: center;
+        }
+
+        .card {
+            background-color: white;
+            width:fit-content;
+            height: fit-content;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .image {
+            padding: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .image img {
+            border-radius: 5px;
+            width: 30rem;
+            height: auto;
+         
+        }
+
+
+        .cont {
+            padding-top: 20px;
+            margin: auto 5px;
+
+        }
+
+        .cont h1 {
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: auto;
+            text-align: center;
+        }
+
+        .cont p {
+            margin: auto 2px;
+            padding: 2px;
+            text-align: justify;
+            color: gray;
+
+        }
+
+        .bun {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1vh;
+            gap: 1vw;
+        }
+
+        span {
+            display: inline;
+            /* padding: 0 1px; */
+            /* margin: 1 1px; */
+
+            border: 1px solid grey;
+            background-color: rgb(4, 63, 116);
+            border-radius: 10px;
+            font-size: 12px;
+            /* font-size: 10px; */
+            padding: 1vh 3vw;
+
+            color: aliceblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+        }
+
+        .butn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .spans {
+            border: 1px solid blueviolet;
+            background-color: rgb(105, 105, 168);
+            /* margin-left: 55px; */
+            font-size: 20px;
+            /* background-color: aliceblue; */
+            color: rgb(255, 255, 255);
+            border-radius: 10px;
+            width: auto;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        
+
+
+
+        }
+
+        .spans button {
+            align-items: center;
+        }
+
+        button:hover {
+            border: 1px;
+
+
+
+            /* background-color: aliceblue; */
+            color: rgb(233, 217, 217);
+            border-radius: 10px;
+            width: auto;
+            height: 30px;
+            transition: 2s;
+            cursor: pointer;
+            /* transition: 2s;
+        transform: scale(1 1.5); */
+        }
+
+        .p {
+            text-align: justify;
+
+
+        }
+
+        .p p {
+            color: black;
+            font-size: large;
+            font-family: 'Segoe UI';
+            font-weight: 600;
+        }
+
+        .bun span:hover {
+            cursor: pointer;
+            height: 20px;
+            align-items: center;
+            justify-content: center;
+            display: grid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="download.jpg" alt="">
+        </div>
+        <div class="bun">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <div class="cont">
+            <h1>
+                Nature
+            </h1>
+            <div class="p">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, atque eaque. Debitis, commodi
+                    accusamus
+                    quia repellat, sapiente facere eveniet laudantium nulla sequi cupiditate deserunt cum perferendis
+                    dolorum
+                    expedita corrupti molestias.
+                </p>
+            </div>
+        </div>
+        <div class="butn">
+            <button class="spans">
+                Read more
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
